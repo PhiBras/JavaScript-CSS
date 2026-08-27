@@ -1,0 +1,83 @@
+* { 
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4400ff 0%, #830083 100%) ;
+  color: #172033;
+  min-height: 100vh;
+}
+
+main {
+  width: 90%; 
+  max-width: 650px;
+  margin: 40px auto; 
+  padding: 30px;
+  background: white; 
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0,0,0,.1);
+}
+
+h2 {
+  text-align: center;
+  /* Degradê aplicado apenas ao texto */
+  background: linear-gradient(135deg, #36008d 0%, #440092 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form div { 
+  margin-bottom: 16px; 
+}
+
+label { 
+  display: block; 
+  margin-bottom: 6px; 
+  font-weight: bold; 
+}
+
+input {
+  width: 100%; 
+  padding: 11px;
+  border: 1px solid #94a3b8; 
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input:focus { 
+  border-color: #16a34a; 
+  outline: none; 
+}
+
+button {
+  margin-right: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  /* Degradê verde escuro no botão */
+  background: linear-gradient(135deg, #2b0070 0%, #4b0092 100%);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #69006d 0%, #770059 100%);
+}
+
+.resultado {
+  margin-top: 25px; 
+  padding: 20px;
+  background: #dcfce7; 
+  border-left: 5px solid #16a34a;
+  border-radius: 6px;
+}
+
+.mensagem-erro {
+  padding: 12px; 
+  color: #991b1b;
+  background: #fee2e2; 
+  border-radius: 6px;
+}
